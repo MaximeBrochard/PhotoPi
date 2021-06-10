@@ -122,8 +122,7 @@ def Start():
 	try:
 		print "Photo Start"
 		livePreview.Start()
-		#compositePhoto = TakePictures()
-		compositePhoto = TakePicture()
+		compositePhoto = TakePictures()
 		SendMail(compositePhoto)
 		pygameEngine.SoundBip3()
 	except Exception, e:
