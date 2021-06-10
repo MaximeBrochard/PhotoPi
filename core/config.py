@@ -16,7 +16,7 @@ FONT = "DejaVuSerif-Bold"
 KEYWORDS_IN_USE = "Camera is already in use"
 KEYWORDS_NO_CAMERA = "*** Error: No camera found. ***"
 KEYWORDS_CAMERA_OK = "Access Capability: Read-Write"
-DEBUG = True # DEBUG variable is here to avoid using DSLR for testing
+DEBUG = False # DEBUG variable is here to avoid using DSLR for testing
 CMD_CHECK = "gphoto2 --summary"
 CMD_PHOTO = "gphoto2 --capture-image-and-download --filename {filename} --force-overwrite &"
 CMD_MOVIE = "gphoto2 --capture-movie={duration}s --stdout> {filename}"
