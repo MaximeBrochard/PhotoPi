@@ -16,9 +16,9 @@ def TakePictures():
 	#Attribute a name with current time for all photos and composite
 	photoFile = dt.datetime.now().strftime("%Y%m%d-%Hh%Mm%S")
 	pic1 = TakeOnePicture(config.SEQUENCE_PHOTO_MSG1, photoFile + "-1")
-	pic2 = TakeOnePicture(config.SEQUENCE_PHOTO_MSG2, photoFile + "-2")
-	pic3 = TakeOnePicture(config.SEQUENCE_PHOTO_MSG3, photoFile + "-3")
-	pic4 = TakeOnePicture(config.SEQUENCE_PHOTO_MSG4, photoFile + "-4")
+	#pic2 = TakeOnePicture(config.SEQUENCE_PHOTO_MSG2, photoFile + "-2")
+	#pic3 = TakeOnePicture(config.SEQUENCE_PHOTO_MSG3, photoFile + "-3")
+	#pic4 = TakeOnePicture(config.SEQUENCE_PHOTO_MSG4, photoFile + "-4")
 	return Composite(pic1, pic2, pic3, pic4, photoFile)
 	
 def TakeOnePicture(message, photoFile):
