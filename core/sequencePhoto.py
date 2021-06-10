@@ -111,7 +111,7 @@ def Composite(pic1, pic2, pic3, pic4, photoFile):
 
 	compositePhoto = config.SEQUENCE_PHOTO_COMPOSITES + "/" + photoFile + ".jpg"
 	pygame.image.save(photoSurface, compositePhoto)
-	sleep(4)
+	sleep(10)
 	return compositePhoto
 
 def SendMail(compositePhoto):
