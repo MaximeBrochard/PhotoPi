@@ -49,10 +49,10 @@ SEQUENCE_STOPMOTION_TEMP = "captures/stopmotion-temp"
 SEQUENCE_VIDEO_CAPTURES = "captures/videos"
 
 # Sequence Photo
-SEQUENCE_PHOTO_MSG1 = "Smile :)"
-SEQUENCE_PHOTO_MSG2 = "~ Party ~"
-SEQUENCE_PHOTO_MSG3 = ".: More fun :."
-SEQUENCE_PHOTO_MSG4 = "The last one :D"
+SEQUENCE_PHOTO_MSG1 = "Photo 1/4 ... !"
+SEQUENCE_PHOTO_MSG2 = "Photo 2/4 ... !"
+SEQUENCE_PHOTO_MSG3 = "Photo 3/4 ... !"
+SEQUENCE_PHOTO_MSG4 = "La derniere ... 4/4 !"
 
 # Sequence Slideshow
 QUIT_BTON_MSG = "Quit"
@@ -71,7 +71,7 @@ CMD_STOPMOTION_PLAY = "omxplayer {filename} -o local --vol -4000"
 CMD_VIDEO_PLAY = "omxplayer {filename}"
 
 # Mail
-MAIL = True
+MAIL = False
 MAIL_FROM = "foo_foo@foo.com"
 MAIL_TO = ["foo_love@foo.com"]
 MAIL_SUBJECT = "PhotoPI"
