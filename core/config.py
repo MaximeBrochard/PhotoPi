@@ -31,9 +31,9 @@ CMD_LIVE_PREVIEW_PLAY = "omxplayer {filename} --live"
 # Media
 DEBUG_FILE = "media/debug.jpg"
 ACTION_SCREEN_FILE1 = "media/action-screen-1.jpg"
-ACTION_SCREEN_FILE2 = "media/action-screen-2.jpg"
-ACTION_SCREEN_FILE3 = "media/action-screen-3.jpg"
-ACTION_SCREEN_FILE4 = "media/action-screen-4.jpg"
+ACTION_SCREEN_FILE2 = "media/action-screen-1.jpg"
+ACTION_SCREEN_FILE3 = "media/action-screen-1.jpg"
+ACTION_SCREEN_FILE4 = "media/action-screen-1.jpg"
 WAIT_LOGO_FILE = "media/wait.gif"
 WAIT_SOUND_FILE = "media/Waiting.wav"
 BEEP01_SOUND_FILE = "media/beep-01.wav"
@@ -49,10 +49,10 @@ SEQUENCE_STOPMOTION_TEMP = "captures/stopmotion-temp"
 SEQUENCE_VIDEO_CAPTURES = "captures/videos"
 
 # Sequence Photo
-SEQUENCE_PHOTO_MSG1 = "Regardez l'objectif! 1/4"
-SEQUENCE_PHOTO_MSG2 = "Regardez l'objectif! 2/4"
-SEQUENCE_PHOTO_MSG3 = "Regardez l'objectif! 3/4"
-SEQUENCE_PHOTO_MSG4 = "Une derniere ;) 4/4"
+SEQUENCE_PHOTO_MSG1 = "Regardez l'objectif! [1/4]"
+SEQUENCE_PHOTO_MSG2 = "Regardez l'objectif! [2/4]"
+SEQUENCE_PHOTO_MSG3 = "Regardez l'objectif! [3/4]!"
+SEQUENCE_PHOTO_MSG4 = "Une derniere! [4/4] !"
 
 # Sequence Slideshow
 QUIT_BTON_MSG = "Quit"

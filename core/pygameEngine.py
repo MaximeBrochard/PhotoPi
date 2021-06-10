@@ -57,7 +57,7 @@ def ClearActionsQueue():
 
 def DrawCenterMessage(message, big = False, withSleep = True):
 	"""displays notification messages onto the SCREEN"""
-	FONTsize = 160 if big else 60
+	FONTsize = 140 if big else 40
 		
 	SCREEN.fill(BLACK_COLOR)
 	TextSurf = pygame.font.SysFont(config.FONT, FONTsize).render(message, True, WHITE_COLOR)
