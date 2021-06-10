@@ -22,6 +22,8 @@ def TakePictures():
 	return Composite(pic1, pic2, pic3, pic4, photoFile)
 	
 def TakeOnePicture(message, photoFile):
+	pygameEngine.DrawCenterMessage("5", True)	
+	pygameEngine.DrawCenterMessage("4", True)
 	pygameEngine.DrawCenterMessage("3", True)
 	pygameEngine.DrawCenterMessage("2", True)
 	pygameEngine.DrawCenterMessage("1", True)
@@ -34,9 +36,9 @@ def TakeOnePicture(message, photoFile):
 		os.makedirs(config.SEQUENCE_PHOTO_CAPTURES)
 
 	camera.WaitCamera()
-	pygameEngine.Fill(pygameEngine.WHITE_COLOR)
+	#pygameEngine.Fill(pygameEngine.WHITE_COLOR)
 	camera.TakePhoto(photoFile)
-
+	
 	sleep(3)
 	return photoFile
 

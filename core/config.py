@@ -16,7 +16,7 @@ FONT = "DejaVuSerif-Bold"
 KEYWORDS_IN_USE = "Camera is already in use"
 KEYWORDS_NO_CAMERA = "*** Error: No camera found. ***"
 KEYWORDS_CAMERA_OK = "Access Capability: Read-Write"
-DEBUG = True # DEBUG variable is here to avoid using DSLR for testing
+DEBUG = False # DEBUG variable is here to avoid using DSLR for testing
 CMD_CHECK = "gphoto2 --summary"
 CMD_PHOTO = "gphoto2 --capture-image-and-download --filename {filename} --force-overwrite &"
 CMD_MOVIE = "gphoto2 --capture-movie={duration}s --stdout> {filename}"
@@ -49,10 +49,10 @@ SEQUENCE_STOPMOTION_TEMP = "captures/stopmotion-temp"
 SEQUENCE_VIDEO_CAPTURES = "captures/videos"
 
 # Sequence Photo
-SEQUENCE_PHOTO_MSG1 = "Photo 1/4 ... !"
-SEQUENCE_PHOTO_MSG2 = "Photo 2/4 ... !"
-SEQUENCE_PHOTO_MSG3 = "Photo 3/4 ... !"
-SEQUENCE_PHOTO_MSG4 = "La derniere ... 4/4 !"
+SEQUENCE_PHOTO_MSG1 = "Regardez l'objectif! 1/4"
+SEQUENCE_PHOTO_MSG2 = "Regardez l'objectif! 2/4"
+SEQUENCE_PHOTO_MSG3 = "Regardez l'objectif! 3/4"
+SEQUENCE_PHOTO_MSG4 = "Une derniere ;) 4/4"
 
 # Sequence Slideshow
 QUIT_BTON_MSG = "Quit"
