@@ -1,7 +1,9 @@
 #!/bin/bash
-DIR="/home/pi/photobooth/PhotoPi/captures/photo-captures"
-inotifywait -r -m -e create "$DIR" | while read f
+dir=/home/pi/photobooth/PhotoPi/captures/photo-captures/
+target=/media/usb/
 
-do
-	cp $f /media/usb
-done
+inotifywait -m "$dir" --format '%w%f' -e close_write |
+	while read file; do
+		#echo "$file" 
+		cp "$file" "$target"
+	done
