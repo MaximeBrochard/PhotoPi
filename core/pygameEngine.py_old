@@ -7,7 +7,7 @@ import RPi.GPIO as GPIO
 
 # GPIO Setup
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(config.GPIO_NUMBER_BUTTON_1, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setup(config.GPIO_NUMBER_BUTTON_1, GPIO.IN)
 GPIO.setup(config.GPIO_NUMBER_BUTTON_2, GPIO.IN)
 
 # Variables
